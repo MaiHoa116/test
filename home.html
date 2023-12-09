@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Band</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Lato"
+    />
+    <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <script
+      src="https://kit.fontawesome.com/7d3b1f5090.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Nav -->
+    <div class="nav">
+      <a href="#" class="nav-item">HOME</a>
+      <a href="../Lab4/Bai1/index.html" class="nav-item">BAND</a>
+      <a href="../Lab4/Bai2/index.html" class="nav-item">TOUR</a>
+      <a href="#" class="nav-item">CONTACT</a>
+    </div>
+    <!-- Sliders -->
+    <div class="slider">
+      <div class="slide-item slide-item1">
+        <h4>Hello</h4>
+        <p>Nice to meet u</p>
+      </div>
+      <div class="slide-item slide-item2">
+        <h4>Hello</h4>
+        <p>Nice to meet u</p>
+      </div>
+      <div class="slide-item slide-item3">
+        <h4>Hello</h4>
+        <p>Nice to meet u</p>
+      </div>
+      <!-- <img src="./image/img_ch.jpg" alt="" class="slide-item" width="100%" />
+      <img src="./image/img_py.jpg" alt="" class="slide-item" width="100%" />
+      <img src="./image/img_la.jpg" alt="" class="slide-item" width="100%" /> -->
+      <script>
+        w3.slideshow(".slide-item", 2000);
+      </script>
+    </div>
+
+    <div class="swiper">
+      <!-- <swiper-container class="mySwiper" effect="cards" grab-cursor="true">
+        <swiper-slide>Slide 1</swiper-slide>
+        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+        <swiper-slide>Slide 5</swiper-slide>
+        <swiper-slide>Slide 6</swiper-slide>
+        <swiper-slide>Slide 7</swiper-slide>
+        <swiper-slide>Slide 8</swiper-slide>
+        <swiper-slide>Slide 9</swiper-slide>
+      </swiper-container> -->
+      <swiper-container
+        class="mySwiper"
+        space-between="50"
+        history-key="slide"
+        pagination="true"
+        navigation="true"
+      >
+        <swiper-slide>Slide 1</swiper-slide>
+        <swiper-slide>Slide 2</swiper-slide>
+        <swiper-slide>Slide 3</swiper-slide>
+        <swiper-slide>Slide 4</swiper-slide>
+        <swiper-slide>Slide 5</swiper-slide>
+        <swiper-slide>Slide 6</swiper-slide>
+        <swiper-slide>Slide 7</swiper-slide>
+        <swiper-slide>Slide 8</swiper-slide>
+        <swiper-slide>Slide 9</swiper-slide>
+      </swiper-container>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+      <h1>THE BAND</h1>
+      <h6 style="padding-top: 1em; padding-bottom: 1em">
+        <i>We love music</i>
+      </h6>
+      <p>
+        We have created a fictional band website. Lorem ipsum dolor sit amet,
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+        consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </p>
+      <div class="flex">
+        <div class="flex-item">
+          <h3>Name</h3>
+          <img src="./image/img_me.jpg" alt="" width="200px" />
+        </div>
+        <div class="flex-item">
+          <h3>Name</h3>
+          <img src="./image/img_me.jpg" alt="" width="200px" />
+        </div>
+        <div class="flex-item">
+          <h3>Name</h3>
+          <img src="./image/img_me.jpg" alt="" width="200px" />
+        </div>
+      </div>
+    </div>
+    <!-- Tour Date -->
+    <div class="tour">
+      <h2>TOUR DATES</h2>
+      <p><i>Remember to book your tickets!</i></p>
+      <div class="box-tour">
+        <div class="item-box">
+          <span class="month">September</span>
+          <span class="sold">Sold out</span>
+        </div>
+        <hr />
+        <div class="item-box">
+          <span class="month">Octorber</span>
+          <span class="sold">Sold out</span>
+        </div>
+        <hr />
+        <div class="item-box fex-box">
+          <span class="month">November</span>
+          <span class="number">3</span>
+        </div>
+      </div>
+      <!-- ticket -->
+      <div class="ticket">
+        <div class="item-ticket">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg"
+            alt=""
+          />
+          <div class="text">
+            <p style="font-weight: 900; font-size: 20px">New York</p>
+            <p class="month" style="font-size: 15px"><i>Fri 27 Nov 2016</i></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p class="button">Buy Ticket</p>
+          </div>
+        </div>
+        <div class="item-ticket">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg"
+            alt=""
+          />
+          <div class="text">
+            <p style="font-weight: 900; font-size: 20px">New York</p>
+            <p class="month" style="font-size: 15px"><i>Fri 27 Nov 2016</i></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p class="button">Buy Ticket</p>
+          </div>
+        </div>
+        <div class="item-ticket">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg/1200px-View_of_Empire_State_Building_from_Rockefeller_Center_New_York_City_dllu.jpg"
+            alt=""
+          />
+          <div class="text">
+            <p style="font-weight: 900; font-size: 20px">New York</p>
+            <p class="month" style="font-size: 15px"><i>Fri 27 Nov 2016</i></p>
+            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+            <p class="button">Buy Ticket</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Contact -->
+    <div class="contact">
+      <h2 style="font-weight: 400">CONTACT</h2>
+      <p style="margin: 30px"><i>Contact me!</i></p>
+      <!-- detail contact-->
+      <div class="detail">
+        <div class="info">
+          <div class="item-info">
+            <span><i class="fa-solid fa-location-dot"></i></span>
+            <span>Chicago, US</span>
+          </div>
+          <div class="item-info">
+            <span><i class="fa-solid fa-phone"></i></span>
+            <span>Phone: +00 151515</span>
+          </div>
+          <div class="item-info">
+            <span><i class="fa-solid fa-envelope"></i></span>
+            <span>Email: mail@mail.com</span>
+          </div>
+        </div>
+        <div class="form">
+          <span
+            ><input class="input" type="text" placeholder="Name" required
+          /></span>
+          <span
+            ><input class="input" type="email" placeholder="Mail" required
+          /></span>
+          <span
+            ><input class="input" type="text" placeholder="Massage" required
+          /></span>
+          <button type="submit">Click me</button>
+        </div>
+      </div>
+    </div>
+    <!-- footer -->
+    <div class="footer">
+      <img src="https://www.w3schools.com/w3css/map.jpg" alt="" width="100%" />
+    </div>
+  </body>
+</html>
